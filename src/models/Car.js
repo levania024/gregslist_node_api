@@ -26,7 +26,7 @@ export const CarSchema = new Schema(
     // adds createdAt and updatedAt properties to each car
     timestamps: true,
     // allows us to add virtual properties to our schema
-    toJSON: { virtuals: true }
+    toJSON: { victuals: true }
   }
 )
 

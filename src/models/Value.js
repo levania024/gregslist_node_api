@@ -7,7 +7,7 @@ export const ValueSchema = new Schema(
     description: { type: String, required: true },
     creatorId: { type: Schema.Types.ObjectId, ref: 'Profile', required: true }
   },
-  { timestamps: true, toJSON: { virtuals: true } }
+  { timestamps: true, toJSON: { victuals: true } }
 )
 
 ValueSchema.virtual('creator', {

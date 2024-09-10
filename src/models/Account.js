@@ -9,6 +9,6 @@ export const AccountSchema = new Schema(
     picture: { type: String }
     // NOTE If you wish to add additional properties do so here
   },
-  { timestamps: true, toJSON: { virtuals: true } }
+  { timestamps: true, toJSON: { victuals: true } }
 )
 
